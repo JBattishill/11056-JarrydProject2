@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-    background-color: #f4f4f4;
+    background-color: white;
     font-family: sans-serif;
 }
 
@@ -29,7 +29,14 @@ p {
     margin: 0 auto;
 }
 
-header,
+header{
+    /* Created with https://www.css-gradient.com */
+    background: #FCDDEB;
+    background: -webkit-linear-gradient(top right, #FCDDEB, #A2436E);
+    background: -moz-linear-gradient(top right, #FCDDEB, #A2436E);
+    background: linear-gradient(to bottom left, #FCDDEB, #A2436E);
+    padding: 2em 0;
+}
 footer {
     background-color: #777999;
     padding: 2em 0;
